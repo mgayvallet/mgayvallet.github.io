@@ -145,7 +145,7 @@ function App() {
       description:
         "A minimal and efficient web-based note management. The goal of this application is to provide a clean, structured, and collaborative way to store personal content, notes, and ideas.",
       tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      image: "/public/miniNotion.png",
+      image: "/miniNotion.png",
       github: "https://github.com/mgayvallet/miniNotion",
       demo: "#",
     },
@@ -153,8 +153,8 @@ function App() {
       title: "Kanban Board",
       description:
         "Interactive kanban board with drag-and-drop and real-time synchronization.",
-      tech: ["HTML", "CSS", "Javascript"],
-      image: "/public/kanban.png",
+      tech: ["React", "Firebase", "Tailwind", "WebSockets"],
+      image: "/kanban.png",
       github: "https://github.com/mgayvallet/kanban",
       demo: "#",
     },
