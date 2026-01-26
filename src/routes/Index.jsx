@@ -113,7 +113,19 @@ function App() {
     {
       name: "Frontend Development",
       icon: Layout,
-      items: ["React.js", "Vue.js", "Tailwind CSS", "JavaScript", "TypeScript", "HTML5", "CSS3", "Responsive Design", "Accessibility", "Performance Optimization", "Ux/Ui Design"],
+      items: [
+        "React.js",
+        "Vue.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Responsive Design",
+        "Accessibility",
+        "Performance Optimization",
+        "Ux/Ui Design",
+      ],
     },
     {
       name: "Backend Development",
@@ -141,11 +153,11 @@ function App() {
       title: "Kanban Board",
       description:
         "Interactive kanban board with drag-and-drop and real-time synchronization.",
-      tech: ["HTML", "CSS", "Javascript",],
+      tech: ["HTML", "CSS", "Javascript"],
       image: "/public/kanban.png",
       github: "https://github.com/mgayvallet/kanban",
       demo: "#",
-    }
+    },
   ];
 
   const handleSubmit = (e) => {
