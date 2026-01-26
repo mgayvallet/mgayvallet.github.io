@@ -113,19 +113,7 @@ function App() {
     {
       name: "Frontend Development",
       icon: Layout,
-      items: [
-        "React.js",
-        "Vue.js",
-        "Tailwind CSS",
-        "JavaScript",
-        "TypeScript",
-        "HTML5",
-        "CSS3",
-        "Responsive Design",
-        "Accessibility",
-        "Performance Optimization",
-        "Ux/Ui Design",
-      ],
+      items: ["React.js", "Vue.js", "Tailwind CSS", "JavaScript", "TypeScript", "HTML5", "CSS3", "Responsive Design", "Accessibility", "Performance Optimization", "Ux/Ui Design"],
     },
     {
       name: "Backend Development",
@@ -145,7 +133,7 @@ function App() {
       description:
         "A minimal and efficient web-based note management. The goal of this application is to provide a clean, structured, and collaborative way to store personal content, notes, and ideas.",
       tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      image: "/miniNotion.png",
+      image: "/public/miniNotion.png",
       github: "https://github.com/mgayvallet/miniNotion",
       demo: "#",
     },
@@ -153,8 +141,8 @@ function App() {
       title: "Kanban Board",
       description:
         "Interactive kanban board with drag-and-drop and real-time synchronization.",
-      tech: ["React", "Firebase", "Tailwind", "WebSockets"],
-      image: "/kanban.png",
+      tech: ["HTML", "CSS", "Javascript",],
+      image: "/public/kanban.png",
       github: "https://github.com/mgayvallet/kanban",
       demo: "#",
     },
